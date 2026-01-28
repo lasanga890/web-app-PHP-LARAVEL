@@ -42,7 +42,7 @@
         
 
         <!-- Navbar & Hero Start -->
-         <!-- @include('frontend.layouts.navbar') -->
+         @include('Frontend.layouts.navbar')
         <!-- Navbar & Hero End -->
 
         <div>
@@ -51,7 +51,7 @@
         
 
         <!-- Footer Start -->
-         <!-- @include('frontend.layouts.footer') -->
+         @include('Frontend.layouts.footer')
     
         <!-- Footer End -->
 
