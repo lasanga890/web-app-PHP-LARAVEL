@@ -50,6 +50,10 @@ function getSharedData() {
     ];
 }
 
+Route::get('/test', function () {
+   return view('admin.dashboard');
+});
+
 Route::get('/', function () {
     return view('Frontend.Home', getSharedData());
 });
